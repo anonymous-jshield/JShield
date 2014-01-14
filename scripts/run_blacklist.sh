@@ -1,0 +1,2 @@
+#!/bin/bash
+java -classpath $AST_HOME/libs/aspectjtools-1.6.5.jar:$AST_HOME/libs/mysql-connector-java-5.1.21-bin.jar:$AST_HOME/libs/org.eclipse.wst.jsdt.core_1.1.101.v201108151912.jar:$AST_HOME/libs/osgi-3.3.0-v20070530.jar:$AST_HOME/libs/runtime-3.0m8.jar:$AST_HOME/libs/commons-httpclient-3.1.jar:$AST_HOME/libs/commons-logging-1.0.4.jar:$AST_HOME/libs/commons-codec-1.3.jar:$JAVA_HOME/lib/:$AST_HOME/bin/blacklist:$AST_HOME/bin/:. Blacklist

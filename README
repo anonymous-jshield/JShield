@@ -1,0 +1,30 @@
+Zozzle-like Detection Engine:
+
+This package is used for demonstrating Zozzle vulnerable to pollution attack.
+	The event triggering engine, which, in order to de-obfuscate JavaScript, will execute all the scripts and trigger all the events in a HTML file, is not included due to the size of WebKit.
+	For the users hoping to re-train the engine, please re-configure the database environement.
+	For accuracy, the blacklist engine is automatically disabled. 
+
+
+Set Up Environment:
+	cd scripts
+	set Java environement in set_env.sh
+	source set_env.sh
+
+Compilation:
+	cd scripts
+	./build.sh
+
+Single File Detection:
+	The input file should be a JavaScript file. Each code snippet starts with "[Source Code Start]" and ends with "[Source Code End]"
+	Please refer to samples for examples
+
+	cd scripts
+	./run.sh 3 file_name 
+
+Detection Files in One Directory:
+	cd scripts
+	run_in_batch.sh directory_to_be_detected list_of_file_names_in_arg1_to_be_detected
+
+
+
